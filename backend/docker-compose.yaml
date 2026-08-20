@@ -31,6 +31,8 @@ services:
 
   mongo-express:
     image: mongo-express
+    depends_on:
+      - mongodb
     restart: always
     ports:
       - 8081:8081
