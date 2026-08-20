@@ -1,4 +1,5 @@
-frontend-app:
+services:
+  frontend-app:
     image: talel12/front-session18
     container_name: frontend-app  # Name of the container
     ports:
