@@ -12,7 +12,7 @@ services:
     ports:
       - 9090:9090                                            # Exposed port for external access
     links:
-      # - cadvisor:cadvisor
+      - cadvisor:cadvisor
       - node-exporter:node-exporter
     
   node-exporter:
